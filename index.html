@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio_html_js.</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee&family=Lora:wght@500&family=Oswald:wght@500&family=Roboto&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h1>Formulário HTML</h1>
+            <h2>Validando campo A e B</h2>
+            <p>Digite seus valores nos campos</p>
+            <form id="formulario">
+                <input type="number" id="input-campo-a" class="input-camp-a" required placeholder="Digite um valor no campo númerico A"/>
+                <input type="number" id="input-campo-b" class="input-camp-b" required placeholder="Digite um valor no campo númerico B"/>
+                <textarea id="" placeholder="Optional description "></textarea>
+                <button type="submit" id="btn-button">Validar</button>
+                <span class="valorError">Erro Valor B é menor que o valor A digite novamente</span>
+            </form>
+            <p class="smg-sucesso"></p>
+        </div>
+    </nav>
+    
+    
+</body>
+<script src="./main.js"></script>
+</html>

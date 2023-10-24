@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: rgb(5, 5, 116);
+}
+.container{
+    background-color: rgb(169, 166, 166);
+margin: 120px auto;
+max-width: 420px;
+width: 100%;
+padding: 8px;
+border-radius: 5px;
+border: 2px solid black;
+}
+
+form{
+    margin-top: 60px;
+
+}
+
+input, button, textarea{
+    display: block;
+    padding: 10px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color:rgb(47, 99, 228);
+}
+
+.valorError{
+    font-size: 18px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    display: none;
+}
+
+.smg-sucesso {
+    background-color: #076f32;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+
